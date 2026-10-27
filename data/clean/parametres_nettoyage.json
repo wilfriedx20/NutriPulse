@@ -1,0 +1,47 @@
+{
+  "nombre_enfants": 4900,
+  "plafond_taille_menage": 19,
+  "entrees_communes": [
+    "age_mois",
+    "region",
+    "edu_mere",
+    "electricite",
+    "cuisiniere",
+    "toilettes"
+  ],
+  "entrees_retard_croissance": [
+    "age_mois",
+    "region",
+    "edu_mere",
+    "electricite",
+    "cuisiniere",
+    "toilettes",
+    "sexe_f",
+    "acte_naissance",
+    "eau_amelioree",
+    "animaux"
+  ],
+  "entrees_emaciation": [
+    "age_mois",
+    "region",
+    "edu_mere",
+    "electricite",
+    "cuisiniere",
+    "toilettes",
+    "age_gardien",
+    "taille_menage",
+    "lavage_mains",
+    "telephone"
+  ],
+  "cibles": [
+    "stunt",
+    "waste"
+  ],
+  "colonnes_audit": [
+    "milieu",
+    "quintile_richesse",
+    "ethnie"
+  ],
+  "colonne_groupe": "grappe",
+  "colonne_poids": "poids_enfant"
+}
