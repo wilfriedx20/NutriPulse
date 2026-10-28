@@ -1,8 +1,7 @@
-# NutriPulse - Partie 1 : nettoyage des données
+# NutriPulse
 
 Estimer le niveau de risque de malnutrition des enfants de 0 à 59 mois à partir de simples réponses de questionnaire, afin de décider quels ménages visiter en premier. Données : enquête MICS6 Togo 2017.
 
-Cette première partie ne fait **que le nettoyage**. Il n'y a ni analyse ni modèle ici.
 
 ## Contenu du dossier
 
@@ -15,7 +14,8 @@ NutriPulse/
 |   |-- clean/    nutripulse_clean.parquet     (fichier propre, produit par le notebook)
 |                 parametres_nettoyage.json    (plafond et listes de variables)
 |-- notebook/
-|   |-- nettoyage.ipynb                        (le nettoyage, documenté pas à pas)
+|   |-- nettoyage.ipynb
+    |-- analyse.ipynb                       (le nettoyage, documenté pas à pas)
 |-- docs/
     |-- NutriPulse_Choix_de_nettoyage.pdf      (les choix expliqués)
     |-- NutriPulse_Architecture.pdf            (la démarche générale du projet)
@@ -47,5 +47,5 @@ Pas de remplacement des cases vides, pas de transformation des catégories en no
 
 ## Suite du projet
 
-2. Analyse exploratoire (`analyse_1_exploration.ipynb`)
-3. Modélisation (`analyse_2_modelisation.ipynb`)
+2. Analyse exploratoire (`analyse.ipynb`)
+3. Modélisation (`modelisation.ipynb`)
