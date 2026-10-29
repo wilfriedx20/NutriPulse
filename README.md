@@ -14,8 +14,8 @@ NutriPulse/
 |   |-- clean/    nutripulse_clean.parquet     (fichier propre, produit par le notebook)
 |                 parametres_nettoyage.json    (plafond et listes de variables)
 |-- notebook/
-|   |-- nettoyage.ipynb
-    |-- analyse.ipynb                       (le nettoyage, documenté pas à pas)
+|   |-- nettoyage_MICS.ipynb                   (le nettoyage, documenté pas à pas)
+    |-- analyse.ipynb                       
 |-- docs/
     |-- NutriPulse_Choix_de_nettoyage.pdf      (les choix expliqués)
     |-- NutriPulse_Architecture.pdf            (la démarche générale du projet)
